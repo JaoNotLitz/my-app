@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+:root {
+    --main-blue-color: rgb(66, 66, 187);
+  }
+  
+.container-cultos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 0 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards-cultos {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 0 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.seletor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.nome{
+    width: 188px;
+}
+ul{
+    padding: 0px;
+}
+.card-cultos {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 15px;
+    padding: 35px;
+    border-radius: 4px;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.card-cultos:hover {
+    color: white;
+    transform: scale(1.1); /* Zoom in */
+    background: linear-gradient(270deg, var(--main-blue-color), rgb(0, 0, 0), var(--main-blue-color), rgb(0, 0, 0)    );
+    background-size: 300% 300%;
+    animation: gradientWave 3s ease infinite;
+}
+.card-cultos:hover .logo-cultos{
+    filter: invert(1);
+}
+@keyframes gradientWave {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+
+.logo-cultos {
+    width: 10vh;
+    min-width: 70px;
+    height: auto;
+}
+.div-logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.div-logo a{
+ text-decoration: none;
+    color: #ffb81e;
+
+}
+.opcoes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.opcoes li  {
+    text-decoration: none;
+    margin: 2px!important;
+}
+.div-logo a:hover{
+       color: #fdd274;
+   }
+.page-link.active {
+    background-color: rgb(36, 36, 109);
+    color: wheat;
+}
+@media (max-width: 1215px) {
+    .nome{
+        width: auto;
+    }
+    .card-cultos {
+        display: flex;
+        min-width: 275px;
+        width: 100%;
+        height: auto;
+        background-color: white;
+        margin: 15px;
+        padding: 15px;
+        border-radius: 4px;
+        align-content: space-around;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .div-logo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.ul{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    max-width: 1000px;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.li {
+	padding: 1rem 2rem 1.15rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ebebeb;
+	min-width: 80px;
+	margin: auto;
+}
+.li a {
+    text-decoration: none; /* removes underline */
+    color: inherit; /* makes the link color the same as the text color */
+}
+
+.li:hover {
+    background-color: #ffb81e;
+    border-radius: 15px;
+    background-size: 100% 100%;
+    color: #27262c;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 #ffb81e;
+	font-weight: bold;
+}
+.li:active {
+  transform: translateY(4px);
+}
+.active {
+    color: #ffb81e; /* Altere para a cor que você deseja */
+}
+@keyframes spring {
+  15% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.2, 1.1);
+  }
+  40% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(0.95, 0.95);
+  }
+  75% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.05, 1);
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1, 1);
+  }
+}
+
+.selected-day {
+    color: #ffb81e; /* change this to your preferred color */
+    
+}
+.selected-day :hover {
+    color: #0000; /* change this to your preferred color */
+    
+}

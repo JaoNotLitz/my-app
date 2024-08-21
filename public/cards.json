@@ -1,0 +1,56 @@
+[
+    {
+        "id": "myModal2",
+        "title": "Beabá Casais Abril 2024",
+        "imgSrc": "/eventos/BEABÁ CASAIS ABRIL 2024 - feed.png" ,
+        "contentCard": "",
+        "contentModal": ""
+    },
+    {
+        "id": "myModal3",
+        "title": "Problemas com Vícios?",
+        "imgSrc": "/eventos/Vícios - feed.png" ,
+        "contentCard": "",
+        "contentModal": ""
+    },
+    {
+        "id": "myModal4",
+        "title": "5000 Homens",
+        "imgSrc": "/eventos/5000 Homens 2024 Feed - corrigido.jpg" ,
+        "contentCard": "",
+        "contentModal": "",
+        "link" :"https://www.sympla.com.br/evento/congresso-5000-homens/2349487"
+    },
+    {
+        "id": "myModal5",
+        "title": "5000 Mulheres",
+        "imgSrc": "/eventos/5000 MULHERES 2024 FEED.png" ,
+        "contentCard": "",
+        "contentModal": "",
+        "link" :"https://www.sympla.com.br/5000-mulheres---get-up-elas__2361812"
+    },
+    {
+        "id": "myModal6",
+        "title": "Filhos de Pastores",
+        "imgSrc": "/eventos/Cong Filhos de Pastores II 2024 - Feed.png" ,
+        "contentCard": "",
+        "contentModal": ""
+    },
+    {
+        "id": "myModal7",
+        "title": "Congresso de Dança Patmos",
+        "imgSrc": "/eventos/dancaPatmos.jpg" ,
+        "contentCard": "",
+        "contentModal": "",
+        "link":"https://www.sympla.com.br/congresso-de-danca-getsemani-2024---patmos__2148129"
+    },
+    {
+        "id": "myModal8",
+        "title": "Congresso Entre Lençóis",
+        "imgSrc": "/eventos/entre lençóis 2024 Feed - corrigido.png" ,
+        "contentCard": "",
+        "contentModal": "",
+        "link":"https://www.sympla.com.br/evento/entre-lencois-2024/2272621"
+    }
+    
+]

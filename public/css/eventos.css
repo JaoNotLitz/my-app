@@ -1,0 +1,87 @@
+.recheio{
+width: 100%;
+height: 13vh;
+}
+.btn{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease;
+}
+.card {
+    margin: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    color: rgb(0, 0, 0);
+}
+.card img {
+   height: 350px;   
+}
+.card:nth-child(3n+1) .btn{
+    background-color: #6c19ff; /* Cor para o primeiro elemento na sequência de três */
+    color:white !important;
+
+}
+
+.card:nth-child(3n+2) .btn{
+    background-color: #8c49ff; /* Cor para o segundo elemento na sequência de três */
+    color: white !important;
+
+}
+
+.card:nth-child(3n+3) .btn{
+    background-color: #cbacff; /* Cor para o terceiro elemento na sequência de três */
+    color: black !important;
+}
+.link-colorido{
+    background-color: #6c19ff !important; /* Cor para o primeiro elemento na sequência de três */
+    color: white !important;
+}
+.btn-close-{
+    background-color: #ffffff!important; /* Cor para o terceiro elemento na sequência de três */
+    color: black !important;
+}
+.btn{
+    color: black;
+}
+.btn :hover{
+    color: black!important;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    color: black;
+}
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: black;
+
+}
+.btn-close-{
+    color: rgb(0, 0, 0) !important;
+}
+.add-element {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+        margin: 10px;
+    align-items: flex-start;
+}
+
